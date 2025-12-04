@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+  
+
+    <script>
+
+       const hourMiliseconds= 1*60*60*1000;
+       let dimensions=["hours","value"];
+       let source=[];
+       const startTime=new Date((new Date()).setHours(0,0,0,0)).getTime();
+       for(let i=0;i<10;i++){
+          for (let j=0;j<24;j++){
+             const time =startTime+i*24*hourMiliseconds+ j*hourMiliseconds;
+             
+             source.push({
+               hour:getHourStr(new Date(time)),
+               value:Math.random()*100
+              })
+          }
+       }
+
+       //数据源
+       function getHourStr(date){
+        
+         const month=date.getMonth()+1;
+         const day=date.getDate();
+         const hour=date.getHours();
+         return `${month}/${day} ${String(hour).padStart(2,'0')}`;
+       }
+       
+    </script>
+  </body>
+</html>
+

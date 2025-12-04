@@ -1,0 +1,33 @@
+# replace default config
+
+# multipass: true
+# full: true
+
+plugins:
+
+  # - name
+  #
+  # or:
+  # - name: false
+  # - name: true
+  #
+  # or:
+  # - name:
+  #     param1: 1
+  #     param2: 2
+- removeUselessDefs: true
+- removeStyleElement: true
+- removeDoctype: true
+- removeComments: true
+- cleanupAttrs: true 
+- removeTitle: true
+- removeDesc: true
+- removeEmptyAttrs: true
+- removeEmptyText: true
+- removeDimensions: true
+
+- removeAttrs:
+    attrs:
+      - 'fill'
+      - 'fill-rule'
+      - 'class'
