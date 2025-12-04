@@ -1,0 +1,3 @@
+1 menu列表看板需要添加其对应的空间类型spaceType,是否有看板数据hasBordData ,  系统看板(舆情概览): systemSpace  (spaceType的值有:我的看板: mine, 我创建的看板空间:myCreatedSpace, 共享给我的空间: sharedToMe)
+
+2 点击其他类型的看板menu的看板显示逻辑待完善.

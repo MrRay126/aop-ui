@@ -1,0 +1,51 @@
+{
+  "name": "aop-ui-vue3-arco",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@arco-design/web-vue": "^2.57.0",
+    "@vue/compat": "^3.4.38",
+    "axios": "^0.27.2",
+    "core-js": "^3.23.1",
+    "dom-to-image": "^2.6.0",
+    "echarts": "^5.3.3",
+    "echarts-map": "git+https://github.com/postfaxcn/echarts-map",
+    "file-saver": "^2.0.5",
+    "fuse.js": "^6.5.3",
+    "highlight.js": "^11.8.0",
+    "jquery": "^3.6.4",
+    "js-cookie": "^3.0.1",
+    "js-md5": "^0.7.3",
+    "jszip": "^3.7.1",
+    "lodash": "^4.17.21",
+    "marked": "^0.3.6",
+    "nprogress": "^0.2.0",
+    "number-precision": "^1.5.2",
+    "numeral": "^2.0.6",
+    "path-to-regexp": "^3.2.0",
+    "register-service-worker": "^1.7.2",
+    "sortablejs": "^1.14.0",
+    "splitpanes": "^2.3.8",
+    "vue": "^3.4.38",
+    "vue-clipboard3": "^2.0.0",
+    "vue-countup-v3": "^1.0.6",
+    "vue-grid-layout": "git+https://github.com/postfaxcn/vue-grid-layout.git#2.3.9",
+    "vue-i18n": "^9.12.0",
+    "vue-router": "^4.3.2",
+    "vuex": "^4.1.0",
+    "vxe-table": "^3.5.8",
+    "vxe-table-plugin-virtual-tree": "^0.6.11",
+    "xe-utils": "^3.5.4",
+    "xlsx": "^0.18.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.93.2",
+    "vite": "^5.2.11"
+  }
+}
